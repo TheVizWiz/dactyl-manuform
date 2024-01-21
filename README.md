@@ -4,8 +4,15 @@
 
 
 
+<img src="pictures/blue top view.jpg">
+<img src="pictures/orange top view.jpg">
 
-![blue top view of keyboard](pictures/blue%20top%20view.jpg)
-![orange top view of keyboard](pictures/orange%20top%20view.jpg)
-![view of custom port with purple lighting](pictures/purple%20port.jpg)
-![view of custom port with orange lighting](pictures/orange%20port.jpg)
+# Custom Port Holder
+<img src="pictures/purple port.jpg">
+<img src="pictures/orange port.jpg">
+
+
+# Wiring
+
+<img src="pictures/matrix without controller.jpg">
+<img src="pictures/matrix with controller.jpg">
