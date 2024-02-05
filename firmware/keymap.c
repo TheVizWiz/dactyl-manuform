@@ -28,15 +28,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, KC_Z   , KC_X   , KC_C   , KC_V   , KC_B   ,                   KC_N   , KC_M   , KC_COMM, KC_DOT, KC_SLSH, KC_BSLS,
                           KC_LBRC, KC_RBRC,                                                       KC_MINS, KC_EQL,
                                             MO_L1  , KC_LCTL,                   KC_SPC , MO_L2  ,
-                                            KC_LALT, KC_LALT,                   KC_RSFT, KC_BSPC,
+                                            KC_LSFT, KC_LALT,                   KC_RSFT, KC_BSPC,
                                             KC_BSPC, KC_LGUI,                   KC_RCTL, KC_RALT
         ),
 
     [_L1] = LAYOUT_5x6(
           QK_BOOT, KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,                 KC_BSLS, KC_SLSH, KC_PAST, KC_MINS, KC_PLUS , KC_F11  ,
-          TOG_GAM, _______, _______, KC_UP  , _______, KC_LBRC,                 KC_RBRC, KC_7   , KC_8   , KC_9   , KC_NUM  , KC_MUTE ,
-          RGB_MOD, KC_LEFT, KC_LEFT, KC_DOWN, KC_RGHT, KC_LPRN,                 KC_RPRN, KC_4   , KC_5   , KC_6   , KC_DOT  , KC_VOLU ,
-          RGB_VAI, RGB_VAD, _______, KC_SPC , _______, _______,                 KC_GRV , KC_1   , KC_2   , KC_3   , KC_COMM , KC_VOLD ,
+          TOG_GAM, KC_INS , KC_HOME, KC_UP  , KC_END , KC_LBRC,                 KC_RBRC, KC_7   , KC_8   , KC_9   , KC_NUM  , KC_MUTE ,
+          _______, _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_LPRN,                 KC_RPRN, KC_4   , KC_5   , KC_6   , KC_DOT  , KC_VOLU ,
+          _______, _______, _______, KC_SPC , _______, _______,                 KC_GRV , KC_1   , KC_2   , KC_3   , KC_COMM , KC_VOLD ,
                             _______, RGB_TOG,                                                     _______, _______,
                                               _______, _______,                 KC_PENT, KC_0   ,
                                               _______, _______,                 _______, KC_DEL ,
@@ -45,8 +45,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_L2] = LAYOUT_5x6(
         QK_BOOT, KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,                 KC_F6  , KC_MPRV, KC_MPLY, KC_MNXT, KC_F10 , QK_BOOT,
-        TOG_GAM, _______, _______, KC_UP  , _______, _______,                 KC_RBRC, _______, KC_UP  , KC_INS , KC_SCRL, KC_MUTE,
-        _______, KC_LEFT, KC_LEFT, KC_DOWN, KC_RGHT, _______,                 KC_RPRN, KC_LEFT, KC_DOWN, KC_RGHT, _______, KC_VOLU,
+        TOG_GAM, _______, _______, KC_UP  , _______, _______,                 KC_RBRC, KC_HOME, KC_UP  , KC_END , KC_SCRL, KC_MUTE,
+        _______, KC_LEFT, KC_LEFT, KC_DOWN, KC_RGHT, _______,                 KC_RPRN, KC_LEFT, KC_DOWN, KC_RGHT, KC_INS , KC_VOLU,
         _______, _______, _______, _______, _______, _______,                 _______, _______, _______, _______, _______, KC_VOLD,
                           _______, RGB_TOG,                                                     KC_EQL , _______,
                                             _______, _______,                 KC_TAB ,_______,
